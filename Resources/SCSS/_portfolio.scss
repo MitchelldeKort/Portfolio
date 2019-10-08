@@ -1,4 +1,6 @@
-.navbar {
+
+
+  .becodetxt {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -6,23 +8,5 @@
     height: 150px;
     padding: 15px;
     align-content: space-around;
-    position: sticky;  
-}
-
-.carousel-control-prev {
-    height:250px ;
-}
-
-  .carousel-inner >{
-    height: 250px;
- }
-
- .carousel-item-active {
-     height:250px ;
- }
-
-  .carousel-item {
-      height: 250px;
   }
-
  
