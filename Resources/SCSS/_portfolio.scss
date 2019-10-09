@@ -1,12 +1,27 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    height: 150px;
+    background-color: #2F5A74;
+    padding: 15px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.body{
+    background-color: #4A4040;
+}
 
 
   .becodetxt {
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     height: 150px;
     padding: 15px;
-    align-content: space-around;
+    
   }
  
