@@ -1,17 +1,15 @@
-ul {
-  list-style-type: none;
-  margin: 5px;
-  padding: 5px;
-  overflow: hidden;
+.navbar {
   background-color: #2F5A74;
-  display: inline-block;
+  display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   height: 150px;
+  width: auto;
+  text-align: center;
 }
 
-li a {
+.navbar-content {
   display: inline-block;
   color: white;
   align-items: center;
@@ -27,16 +25,12 @@ li a:hover {
   background-color: #247eb6;
 }
 
-ul {
+.navbar {
   position: fixed;
   top: 0;
   width: 100%;
   align-items: center;
   justify-content: center;
-}
-
-.body {
-  background-color: #4A4040;
 }
 
 .carouseldiv {
@@ -50,12 +44,13 @@ ul {
 
 ul.slides {
   display: block;
-  position: relative;
+  position: sticky;
   height: 600px;
-  margin: 0;
-  padding: 0;
+  margin: 50px 50px 0 0;
+  padding: 0px;
   overflow: hidden;
   list-style: none;
+  background-color: #4A4040;
 }
 
 .slides * {
@@ -151,8 +146,19 @@ input:checked + .slide-container .nav label {
   display: block;
 }
 
+body {
+  background: #4A4040;
+}
+
+.becodeinfo {
+  margin-top: 25px;
+  background-color: #4A4040;
+}
+
 .becodetxtimg {
   float: left;
+  width: 190px;
+  height: 190px;
 }
 
 .becodetxt {
@@ -160,7 +166,7 @@ input:checked + .slide-container .nav label {
   width: 100%;
   background-color: #4A4040;
   color: white;
-  padding: 5px;
+  margin: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
