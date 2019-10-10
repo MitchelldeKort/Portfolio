@@ -1,22 +1,17 @@
 .navbar {
     background-color: #2F5A74;
     display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     height: 150px;
     width: auto;
-    text-align: center;
-    
-  }
-  
-  .navbar-content {
-    display: inline-block;
-    color: white;
+    position: fixed;
+    width: 100%;
     align-items: center;
-    justify-content: space-between;
-    text-align: center;
- }
+    justify-content: space-around;
+    color: white;
+  
+  }
+
   
   li a:hover {
     background-color: #111;
@@ -26,13 +21,7 @@
     background-color: rgb(36, 126, 182);
   }
 
-  .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-  }
+  
  
   .carouseldiv{
     background-color: #4A4040;
@@ -142,9 +131,8 @@ input:checked + .slide-container .carousel-controls label {
 input#img-1:checked ~ .carousel-dots label#img-dot-1,
 input#img-2:checked ~ .carousel-dots label#img-dot-2,
 input#img-3:checked ~ .carousel-dots label#img-dot-3,
- {
-	opacity: 1;
-}
+ 
+
 
 
 input:checked + .slide-container .nav label { display: block; }
@@ -156,19 +144,36 @@ body{
 .becodeinfo {
   margin-top: 25px;
   background-color: #4A4040;
+  padding: 4cm;
+  color: white;
+  margin: 2cm;
+  padding-left: 50px;
 }
 
 .becodetxtimg{
   float: left;
   width: 190px;
   height: 190px;
+  padding-right: 100px;
 }
 
-  .becodetxt {
-    flex-direction: row;
-    width: 100%;
-    background-color: #4A4040;
-    color: white;
-    margin: 25px;
+  
+progress {
+  
+  
+  width: 250px;
+  height: 20px;
+}
+
+    .progressbars{
+      color: white;
+      padding-top: 20px;
+      margin: 20px;
+      display: inline-block;
+      align-items: center;
+      justify-content: center;
+      width: 150px;
+
     }
- 
+   
+    
