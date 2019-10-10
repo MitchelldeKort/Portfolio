@@ -1,4 +1,4 @@
 # Portfolio
 
 Click this link to see my portfolio.
-https://mitchelldekort.github.io/portfolio.html#cv
+https://mitchelldekort.github.io/Portfolio/portfolio.html
