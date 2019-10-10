@@ -3,12 +3,12 @@
   display: flex;
   text-align: center;
   height: 150px;
-  width: auto;
-  position: fixed;
   width: 100%;
+  position: fixed;
   align-items: center;
   justify-content: space-around;
   color: white;
+  z-index: 9999;
 }
 
 li a:hover {
@@ -21,6 +21,7 @@ li a:hover {
 
 .carouseldiv {
   background-color: #4A4040;
+  padding-top: 1px;
 }
 
 .carousel {
@@ -32,7 +33,7 @@ ul.slides {
   display: block;
   position: sticky;
   height: 600px;
-  margin: 50px 50px 0 0;
+  margin: 0 50px 0 0;
   padding: 0px;
   overflow: hidden;
   list-style: none;
@@ -131,6 +132,8 @@ input:checked + .slide-container .nav label {
 
 body {
   background: #4A4040;
+  margin: 0%;
+  padding: 0%;
 }
 
 .becodeinfo {
@@ -157,11 +160,20 @@ progress {
 .progressbars {
   color: white;
   padding-top: 20px;
-  margin: 20px;
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
-  width: 150px;
+  margin: 2cm 50px Opx 0px;
+  margin-top: 25px;
+  background-color: #4A4040;
+  padding: 4cm;
+  color: white;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skillsimg {
+  float: right;
+  width: px;
+  height: 500px;
 }
 
 /*# sourceMappingURL=style.css.map */
