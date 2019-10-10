@@ -11,7 +11,7 @@
   z-index: 9999;
 }
 
-li a:hover {
+a:hover {
   background-color: #111;
 }
 
@@ -19,9 +19,10 @@ li a:hover {
   background-color: #247eb6;
 }
 
+/*carousel*/
 .carouseldiv {
   background-color: #4A4040;
-  padding-top: 1px;
+  padding-top: 160px;
 }
 
 .carousel {
@@ -136,6 +137,7 @@ body {
   padding: 0%;
 }
 
+/*background info*/
 .becodeinfo {
   margin-top: 25px;
   background-color: #4A4040;
@@ -152,6 +154,7 @@ body {
   padding-right: 100px;
 }
 
+/*Experience*/
 progress {
   width: 250px;
   height: 20px;
@@ -170,10 +173,28 @@ progress {
   justify-content: space-between;
 }
 
+/*skills*/
 .skillsimg {
   float: right;
   width: px;
   height: 500px;
+}
+
+/*my work*/
+.work {
+  margin-top: 50px;
+  background-color: #4A4040;
+  padding: 4cm 50px 50px 50px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.workimg {
+  float: right;
+  padding-left: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
