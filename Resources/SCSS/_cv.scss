@@ -1,0 +1,51 @@
+.navbar {
+    background-color: #2F5A74;
+    display: flex;
+    text-align: center;
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    z-index: 9999;
+  
+  }
+
+  a:hover {
+    background-color: white;
+  }
+
+  .active {
+    background-color: rgb(36, 126, 182);
+  }
+  
+
+.background {
+    padding-top: 5cm;
+    margin: 15px;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.h3{
+    padding-top: 4cm;
+    margin: 15px;
+    color: white;
+}
+
+
+
+
+.keyskills {
+    padding-top: 4cm;
+    margin: 15px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
