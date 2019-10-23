@@ -10,139 +10,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./Resources/CSS/style.css">
-   
-
-   
-    
     <title>Portfolio</title>
-
 </head>
-<header>
 
-    <div class="navbar">
-
-      
-        <img src="./Resources/images/Becode.jpeg" alt="becode">
-        <a href="#home">Home</a>
-        <a href="#ex">Experience</a>
-        <a href="cv.html" target="add">CV</a>
-      
-</div>
-
-
-</header>
 
 <body>
- <!-----------------------------carousel------------------------------->
- <div class="carouseldiv" id="home">
-    <div class="carousel">
-        <ul class="slides">
-            <input type="radio" name="radio-buttons" id="img-1" checked />
-            <li class="slide-container">
-                <div class="slide-image">
-                    <img src="./Resources/images/baby.jpg">
-                </div>
-                <div class="carousel-controls">
-                    <label for="img-3" class="prev-slide">
-                        <span>&lsaquo;</span>
-                    </label>
-                    <label for="img-2" class="next-slide">
-                      <span>&rsaquo;</span>
-                    </label>
-                </div>
-            </li>
-            <input type="radio" name="radio-buttons" id="img-2" />
-            <li class="slide-container">
-                <div class="slide-image">
-                    <img src="./Resources/images/dutchie.jpg">
-                </div>
-                <div class="carousel-controls">
-                    <label for="img-1" class="prev-slide">
-                        <span>&lsaquo;</span>
-                    </label>
-                    <label for="img-3" class="next-slide">
-                        <span>&rsaquo;</span>
-                    </label>
-                </div>
-            </li>
-            <input type="radio" name="radio-buttons" id="img-3" />
-            <li class="slide-container">
-                <div class="slide-image">
-                    <img src="./Resources/images/ik.jpg">
-                </div>
-                <div class="carousel-controls">
-                    <label for="img-2" class="prev-slide">
-                        <span>&lsaquo;</span>
-                    </label>
-                    <label for="img-1" class="next-slide">
-                        <span>&rsaquo;</span>
-                    </label>
-                </div>
-            </li>
-           
-        </ul>
-    </div>
+    <header id="nav">
+
+        <nav>
+    
+          
+            <img src="./Resources/images/Becode.jpeg" alt="becode">
+            <a href="#nav">Home</a>
+            <a href="#ex">Experience</a>
+            <a href="#contact">Contact</a>
+            <a href="cv.html" target="_blank">CV</a>
+          
+        </nav>
+    
+    
+    </header>
+
+<div class="wrapper">
+    <section id="me" class="me"><h1>Hi there , i'm Mitchell</h1>
+    
+        <p>I'm a junior web developer at Becode.
+          Take a look at what my experiences are and what i've done so far.
+          I like to create things i can be proud of and learning new things.
+        </p>
+     
+    
+    
+    
+       <p>I started my education in September 2019.
+       After a thorough process of motivation and knowledge,
+       i got selected amongst a few others to learn on how to code.
+       During these few months we where trained to work with the following :
+       HTML5 , CSS , SASS , Bootstrap , JavaScript , and a specialization of own choice.</p></section>
+
+    <section id="ex"class="progressbars"><div class="skills">
+        <h1>Skills</h1>
+     
+            <p>HTML5</p>
+           <progress value = "75" max = "100"></progress>
+     
+           <p>CSS</p>
+           <progress value = "75" max = "100">75%</progress>
+     
+           <p>SASS</p>
+           <progress value ="65" max = "100">65%</progress>
+     
+          <p>Bootstrap</p>
+          <progress value = "70" max = "100">70%</progress>
+     
+          <p>JavaScript</p>
+          <progress value = "50" max = "100">50%</progress>
+     
+          <p>VUE.js</p>
+          <progress value = "50" max = "100">50%</progress>
+     
+         </div>
+        </section>
+
+
+        
+     
+         
 </div>
 
-          <!---------------------------Becode info---------------------------->
 
-<!----------------------------Home------------------------------------>
-
-<div class="me">
-    <h1>Hi there , i'm Mitchell</h1>
-    
-    <p>I'm a junior web developer at Becode.
-      Take a look at what my experiences are and what i've done so far.
-      I like to create things i can be proud of and learning new things.
-    </p>
-  </div>
-
-
-
-<div class="becodeinfo" id="ex">
-   <img class="becodetxtimg" src="./Resources/images/incodewetrust.jpeg" alt="in code we trust">
-   <p>I started my education in September 2019.</p>
-   <p>After a thorough process of motivation and knowledge,</p>
-   <p>i got selected amongst a few others to learn on how to code.</p>
-   <p>During these few months we where trained to work with the following :</p>
-   <p>HTML5 , CSS , SASS , Bootstrap , JavaScript , and a specialization of own choice.</p>
-</div>
-    
-<!--------------------------------IT related info------------------------------------------>
-
-
-<div class="progressbars">
-
-
-  <div class="skills">
-   <h1>Skills</h1>
-
-
-       <p>HTML5</p>
-      <progress value = "75" max = "100"></progress>
-
-      <p>CSS</p>
-      <progress value = "75" max = "100">75%</progress>
-
-      <p>SASS</p>
-      <progress value ="65" max = "100">65%</progress>
-
-     <p>Bootstrap</p>
-     <progress value = "70" max = "100">70%</progress>
-
-     <p>JavaScript</p>
-     <progress value = "50" max = "100">50%</progress>
-
-     <p>VUE.js</p>
-     <progress value = "50" max = "100">50%</progress>
-
-    </div>
-
-    <img class="skillsimg" src="./Resources/images/code.jpeg" alt="code">
-    
     
 
-</div>
+
 
 
 
@@ -150,17 +89,32 @@
 
 <div class="work">
 <p>Here are some examples of projects i worked on during my education.
-We started with some simple Terminal exercises,followed by using Git.
-First we had to rewrite an exercise, wich was our exercise at the same time.
-Second exercise was us using CSS
-Then we had to make minesweeper and a chessboard ; learning flexbox and grid.
-Group projects where also done, learning to work with eachother and communicate.
+To be able to see more of my work , go to <a href= "https://github.com/MitchelldeKort"target="add">my GitHub</a> account.</p>
+</div>
 
-To be able to see more of my work , follow this <a href= "https://github.com/MitchelldeKort"target="add">link</a>  to go to my Github account.</p>
-
+<div class="images">
 <img class="workimg" src="./Resources/images/minesweeper.png" alt="minesweeper">
+<img class="chess" src="/Resources/images/chess.png" alt="chess">
+<img class="multipage" src="/Resources/images/multipage.png" alt="multipage">
 
 </div>
+
+
+
+
+<section id="contact" class="contact">
+    <h1>Get in touch with me</h1>
+    <p> Check me on <a href= "https://github.com/MitchelldeKort"target="add">GitHub</a></p>
+    <p> Check me on <a href="https://www.linkedin.com/in/mitchell-de-kort-911513192/"target="add">LinkedIn</a></p>
+    <p>Mail me on mitchelldekort@gmail.com</p>
+    <p> Or call me on : 0987654321</p>
+    
+  
+ </section>
+</div>
+
+
+
 
 
 

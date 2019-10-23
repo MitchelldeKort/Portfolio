@@ -1,4 +1,4 @@
-.navbar {
+nav {
     background-color: #182430;
     display: flex;
     text-align: center;
@@ -7,231 +7,124 @@
     position: fixed;
     align-items: center;
     justify-content: space-around;
-    color: white;
-    z-index: 9999;
+    color: white;}
+    
+  
     a{
       color: white;
       text-decoration-style: none;
   }
-  }
+
+  
 
   a:hover {
     transform: scale(1.3)
   }
-
-  .active {
-    background-color: rgb(36, 126, 182);
-  }
   
-
-          /*carousel*/
- 
-  .carouseldiv{
-    background-color: #4A4040;
-    padding-top: 160px;
-
-  }
-
-  .carousel {
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-ul.slides {
-    display: block;
-    position: sticky;
-    height: 600px;
-    margin: 0 50px 0 0;
-    padding: 0px;
-    overflow: hidden;
-    list-style: none;
-    background-color: #4A4040;
-}
-
-.slides * {
-    user-select: none;
-    -ms-user-select: none;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -webkit-touch-callout: none;
-}
-
-ul.slides input {
-    display: none; 
+.wrapper{
+  scroll-behavior: smooth;
+  width: 100%;
 }
 
 
-.slide-container { 
-    display: block; 
-}
-
-.slide-image {
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    opacity: 0;
-    transition: all .7s ease-in-out;
-}   
-
-.slide-image img {
-    width: auto;
-    min-width: 100%;
-    height: 100%;
-}
-
-.carousel-controls {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 999;
-    font-size: 100px;
-    line-height: 600px;
-    color: #fff;
-}
-
-.carousel-controls label {
-    display: none;
-    position: absolute;
-    padding: 0 20px;
-    opacity: 0;
-    transition: opacity .2s;
-    cursor: pointer;
-}
-
-.slide-image:hover + .carousel-controls label{
-    opacity: 0.5;
-}
-
-.carousel-controls label:hover {
-    opacity: 1;
-}
-
-.carousel-controls .prev-slide {
-    width: 49%;
-    text-align: left;
-    left: 0;
-}
-
-.carousel-controls .next-slide {
-    width: 49%;
-    text-align: right;
-    right: 0;
-}
-
-input:checked + .slide-container .slide-image {
-    opacity: 1;
-    transform: scale(1);
-    transition: opacity 1s ease-in-out;
-}
-
-input:checked + .slide-container .carousel-controls label {
-     display: block; 
-}
-
-input#img-1:checked ~ .carousel-dots label#img-dot-1,
-input#img-2:checked ~ .carousel-dots label#img-dot-2,
-input#img-3:checked ~ .carousel-dots label#img-dot-3,
- 
-
-
-
-input:checked + .slide-container .nav label { display: block; }
 
 body{
-  background: #4A4040;
+  background-image: url(/Resources/images/25.jpg);
   margin: 0%;
   padding: 0%;
 }
 /*ME*/
 
 .me{
-  display: inline-block;
-  color: white;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin: 50px 50px 50px 50px;
+ background-color: #182430;
+ color: white;
+ display: inline-block;
+ text-align: center;
+ margin: 7cm 0px 7cm 0px;
+ padding: 0px 0px 15px 0px;
 }
 
 .me > h1{
   text-align: center;
   align-items: center;
   justify-content: center;
-  
+ 
 }
 
-
-/*background info*/
-
-.becodeinfo {
-  margin-top: 25px;
-  background-color: #4A4040;
-  padding: 4cm;
-  color: white;
-  margin: 2cm;
-  padding-left: 50px;
-}
-
-.becodetxtimg{
-  float: left;
-  width: 190px;
-  height: 190px;
-  padding-right: 100px;
-}
 
   /*Experience*/
 
 
-progress {
-  width: 250px;
-  height: 20px;
-}
 
     .progressbars{
+      background-image: url(/Resources/images/sourcecode.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: #182430;
       color: white;
-      padding-top: 20px;
-      margin: 2cm 50px Opx 0px;
-      margin-top: 25px;
-      background-color: #4A4040;
-      padding: 4cm;
-      color: white;
-      padding-left: 50px;
+      margin: 2cm 0px Opx 0px;
+      padding-bottom: 35px;
       display: flex;
       justify-content: space-between;
+      align-items: center;
+      justify-content: center;
       
     }
    
-   /*skills*/
-
-    .skillsimg{
-      float: right;
-      width: px;
-      height: 500px;
-    }
+   
     
     /*my work*/
 
     .work {
-      margin-top: 50px;
-      background-color: #4A4040;
-      padding: 4cm 50px 50px 50px;
-      color: white;
+      margin-top: 9rem;
+      background-image: url(/Resources/images/workhomepic.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: black;
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      text-align: left;
+      justify-content: center;
+      text-align: center;
       
     }
 
-  .workimg {
-    float: right;
-    padding-left: 50px;
-  }
+    .work  a {
+      color: darkblue;
+    }
 
 
+    .contact {
+      background-color: #182430;
+      color: white;
+      justify-content: center;
+      text-align: center;
+      margin: 20rem 0rem 2rem 0rem;
 
+    }
+
+
+    .images{
+      background-image: url(/Resources/images/workhomepic.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5rem 5rem 5rem 5rem;
+    }
+
+    .workimg{
+      width: 300px;
+      height: 300px;
+    }
+.chess {
+  width: 300px;
+  height: 300px;
+}
+
+.multipage {
+  width: 300px;
+  height: 300px;
+}
 
