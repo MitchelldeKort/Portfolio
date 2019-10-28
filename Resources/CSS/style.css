@@ -1,7 +1,27 @@
-#nav {
+/*body{
+  margin: 5px 5px 5px 5px;
+  background-color: black;
+}*/
+
+
+
+nav {
   display: flex;
   flex-direction: row;
-  background-color: aqua;￼
+  align-items: center;
+  justify-content: space-around;
+  background-image: url(/Resources/images/pic08.jpg);
+  background-size: 100%;
+}
+
+.upper{
+  display: flex;
+  flex-direction: column;
+  background-image: url(/Resources/images/pic08.jpg);
+  background-size: 100% 100%;
+  justify-content: center;
+  text-align: center;
+
 }
 
 /*# sourceMappingURL=style.css.map */
