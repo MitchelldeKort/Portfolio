@@ -1,27 +1,184 @@
-/*body{
-  margin: 5px 5px 5px 5px;
-  background-color: black;
-}*/
-
-
-
-nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  background-image: url(/Resources/images/pic08.jpg);
-  background-size: 100%;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.upper{
+body {
+  position: relative;
+  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: fixed;
+}
+
+body::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  content: "";
+  z-index: -1;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+  background-size: 100%;
+  padding: 2rem;
+}
+
+.upper {
   display: flex;
   flex-direction: column;
-  background-image: url(/Resources/images/pic08.jpg);
-  background-size: 100% 100%;
   justify-content: center;
+  align-items: center;
   text-align: center;
+  padding: 5rem;
+}
 
+.upper > img {
+  padding-top: 5px;
+  border-radius: 10%;
+  width: 100px;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.triangle {
+  background-image: url(../images/download.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100px;
+  height: 100px;
+}
+
+.triangle2 {
+  background-image: url(../images/download.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100px;
+  height: 100px;
+  transform: scaleX(-1) rotate(180deg);
+  -webkit-transform: scaleX(-1) rotate(180deg);
+}
+
+.triangle3 {
+  background-image: url(../images/download.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100px;
+  height: 100px;
+  transform: scaleX(-1);
+}
+
+#skills {
+  display: block;
+  text-align: center;
+  width: 100%;
+  background-color: #4c5c96;
+}
+
+/*porgressbars*/
+.container {
+  margin: 0px auto;
+  width: 400px;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.container .progress {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.progress {
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar {
+  height: 16px;
+  border-radius: 4px;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+
+#html:checked ~ .progress > .progress-bar {
+  width: 77%;
+  background-color: orangered;
+}
+
+#css:checked ~ .progress > .progress-bar {
+  width: 70%;
+  background-color: lightblue;
+}
+
+#sass:checked ~ .progress > .progress-bar {
+  width: 70%;
+  background-color: purple;
+}
+
+#bootstrap:checked ~ .progress > .progress-bar {
+  width: 75%;
+  background-color: lightpink;
+}
+
+#javascript:checked ~ .progress > .progress-bar {
+  width: 60%;
+  background-color: yellow;
+}
+
+.radio {
+  display: none;
+}
+
+.label {
+  display: inline-block;
+  margin: 0 5px 20px;
+  padding: 3px 8px;
+  color: #aaa;
+  text-shadow: 0 1px black;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.radio:checked + .label {
+  color: white;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+#ex {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 15px 15px 15px;
+}
+
+.chess {
+  height: 342px;
+  width: 350px;
+}
+
+.multipage {
+  height: 342px;
+  width: 350px;
 }
 
 /*# sourceMappingURL=style.css.map */
