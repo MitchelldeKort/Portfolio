@@ -10,8 +10,8 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: fixed;
-  
-  
+  background-attachment: fixed;
+  background-position: center;
   
 }
 
@@ -33,16 +33,10 @@ body::after{
   align-items: center;
   position: fixed;
   width: 100%;
-  background-image: url(../images/bg.jpg);
-  background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: -1;
-  background-size: 100%;
   padding:2rem;
-
+  background-color: #4c5c96;
+  color: white;
 }
-
-
 
 .upper{
   display: flex;
@@ -51,6 +45,7 @@ body::after{
   align-items: center;
   text-align: center;
   padding: 5rem;
+margin-top: 5px;
   
 }
 
@@ -79,14 +74,6 @@ body::after{
   -webkit-transform: scaleX(-1)rotate(180deg);
 }
 
-.triangle3{
-  background-image: url(../images/download.svg);
-  background-repeat: no-repeat;
-  background-size: 100% 100px;
-  height: 100px;
-  transform: scaleX(-1)
-
-}
 #skills{
   display: block;
   text-align: center;
@@ -94,7 +81,7 @@ body::after{
   background-color: #4c5c96;
 
 }
-/*porgressbars*/
+/*progressbars*/
 
 .container {
   margin: 0px auto;
@@ -168,19 +155,13 @@ body::after{
   background: rgba(0, 0, 0, 0.25);
 }
 
-#ex{
+.exer{
   padding-top: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 50rem;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-margin: 15px 15px 15px 15px;
-
+  text-align: center;
+  margin-bottom: 5rem;
 }
+
+
 .chess{
   height: 342px;
   width: 350px;
@@ -190,3 +171,38 @@ margin: 15px 15px 15px 15px;
   height: 342px;
   width: 350px;
 }
+
+.work{
+  padding: 15px 15px 15px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.triangle3{
+  background-image: url(../images/download.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100px;
+  height: 100px;
+}
+
+.triangle4{
+  background-image: url(../images/download.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100px;
+  height: 100px;
+  transform: scaleX(-1) rotate(180deg);
+  -webkit-transform: scaleX(-1)rotate(180deg);
+}
+
+.triangle5{
+  background-image: url(../images/download.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100px;
+  height: 100px;
+  transform: scaleX(-1) rotate(180deg);
+  -webkit-transform: scaleX(-1)rotate(180deg);
+}
+
