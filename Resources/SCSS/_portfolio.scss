@@ -12,6 +12,7 @@ body {
   background-position: fixed;
   background-attachment: fixed;
   background-position: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   
 }
 
@@ -26,6 +27,11 @@ body::after{
   z-index: -1;
   
 }
+
+a{
+  color: white;
+}
+
 #navbar {
   display: flex;
   flex-direction: row;
@@ -34,9 +40,11 @@ body::after{
   position: fixed;
   width: 100%;
   padding:2rem;
-  background-color: #4c5c96;
-  color: white;
+  color: black;    
+  background-color: transparent;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 .upper{
   display: flex;
@@ -46,6 +54,7 @@ body::after{
   text-align: center;
   padding: 5rem;
 margin-top: 5px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
   
 }
 
@@ -178,6 +187,7 @@ margin-top: 5px;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 20rem;
 
 }
 
@@ -186,15 +196,20 @@ margin-top: 5px;
   background-repeat: no-repeat;
   background-size: 100% 100px;
   height: 100px;
+
 }
+
 
 .triangle4{
   background-image: url(../images/download.svg);
+  background-color: #4c5c96;
   background-repeat: no-repeat;
   background-size: 100% 100px;
   height: 100px;
-  transform: scaleX(-1) rotate(180deg);
-  -webkit-transform: scaleX(-1)rotate(180deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .triangle5{
