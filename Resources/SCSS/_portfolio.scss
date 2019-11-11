@@ -12,7 +12,8 @@ body {
   background-position: fixed;
   background-attachment: fixed;
   background-position: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
   
 }
 
@@ -29,8 +30,40 @@ body::after{
 }
 
 a{
-  color: white;
-}
+  color: white;}
+
+.borderYtoX a:before, .borderYtoX a:after
+  {
+      position: absolute;
+      opacity: 0.5;
+      height: 100%;
+      width: 2px;
+      content: '';
+      background: #FFF;
+      transition: all 0.3s;
+  }
+  
+  .borderYtoX a:before
+  {
+      left: 0px;
+      top: 0px;
+  }
+  
+  .borderYtoX a:after
+  {
+      right: 0px;
+      bottom: 0px;
+  }
+  
+  .borderYtoX a:hover:before, .borderYtoX a:hover:after
+  {
+      opacity: 1;
+      height: 2px;
+      width: 100%;
+  }
+  
+
+
 
 #navbar {
   display: flex;
@@ -40,7 +73,7 @@ a{
   position: fixed;
   width: 100%;
   padding:2rem;
-  color: black;    
+  color: white;    
   background-color: transparent;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -53,8 +86,9 @@ a{
   align-items: center;
   text-align: center;
   padding: 5rem;
-margin-top: 5px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 5px;
+  font-family: 'Josefin Sans', sans-serif;  
+  color: white;
   
 }
 
@@ -88,6 +122,8 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   width: 100%;
   background-color: #4c5c96;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
 
 }
 /*progressbars*/
@@ -168,26 +204,30 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-top: 15px;
   text-align: center;
   margin-bottom: 5rem;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 
 .chess{
   height: 342px;
   width: 350px;
+  margin-bottom: 1rem;
 }
 
-.multipage{
+.website{
   height: 342px;
   width: 350px;
+  margin-top: 1rem;
 }
 
 .work{
   padding: 15px 15px 15px 15px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   padding-bottom: 20rem;
+  font-family: 'Josefin Sans', sans-serif;
+
 
 }
 
