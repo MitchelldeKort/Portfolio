@@ -132,6 +132,8 @@ a{
 /*progressbars*/
 
 .container {
+  display: flex;
+  justify-content: center;
   margin: 0px auto;
   width: 400px;
   padding: 60px 0;
