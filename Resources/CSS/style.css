@@ -94,6 +94,7 @@ a {
   background-repeat: no-repeat;
   background-size: 100% 100px;
   height: 100px;
+  opacity: 0.6;
 }
 
 .triangle2 {
@@ -103,6 +104,7 @@ a {
   height: 100px;
   transform: scaleX(-1) rotate(180deg);
   -webkit-transform: scaleX(-1) rotate(180deg);
+  opacity: 0.6;
 }
 
 #skills {
@@ -110,6 +112,7 @@ a {
   text-align: center;
   width: 100%;
   background-color: #4c5c96;
+  opacity: 0.6;
   color: white;
   font-family: "Josefin Sans", sans-serif;
 }
@@ -194,18 +197,6 @@ a {
   font-family: "Josefin Sans", sans-serif;
 }
 
-.chess {
-  height: 342px;
-  width: 350px;
-  margin-bottom: 1rem;
-}
-
-.website {
-  height: 342px;
-  width: 350px;
-  margin-top: 1rem;
-}
-
 .work {
   padding: 15px 15px 15px 15px;
   display: flex;
@@ -213,6 +204,7 @@ a {
   align-items: center;
   padding-bottom: 20rem;
   font-family: "Josefin Sans", sans-serif;
+  margin: 10px 10px 10px 10px;
 }
 
 .triangle3 {
@@ -220,6 +212,7 @@ a {
   background-repeat: no-repeat;
   background-size: 100% 100px;
   height: 100px;
+  opacity: 0.6;
 }
 
 .triangle4 {
@@ -231,6 +224,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  opacity: 0.6;
 }
 
 .triangle5 {
@@ -240,6 +234,33 @@ a {
   height: 100px;
   transform: scaleX(-1) rotate(180deg);
   -webkit-transform: scaleX(-1) rotate(180deg);
+  opacity: 0.6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.info {
+  display: inline-block;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  padding: 2rem 2rem 2rem 2rem;
+  padding-bottom: 3rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 2rem 2rem 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  float: right;
 }
 
 .background {
@@ -248,26 +269,20 @@ a {
   color: white;
   align-items: center;
   text-align: center;
-  padding: 2 rem 2 rem 2rem 2rem;
-  padding-top: 4rem;
-}
-
-.personalskills {
-  padding-top: 3rem;
-  display: flex;
-  flex-direction: column;
-  color: white;
-  align-items: center;
-  text-align: center;
+  padding: 2rem 2rem 2rem 2rem;
+  padding-bottom: 3rem;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .hobbies {
-  padding-top: 3rem;
   display: flex;
   flex-direction: column;
   color: white;
   align-items: center;
+  justify-content: center;
   text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 0rem 1rem 1rem 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

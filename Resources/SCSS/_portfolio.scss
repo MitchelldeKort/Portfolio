@@ -106,6 +106,7 @@ a{
   background-repeat: no-repeat;
   background-size: 100% 100px;
   height: 100px;
+  opacity:0.6;
 }
 
 .triangle2{
@@ -115,15 +116,17 @@ a{
   height: 100px;
   transform: scaleX(-1) rotate(180deg);
   -webkit-transform: scaleX(-1)rotate(180deg);
+  opacity:0.6;
 }
 
 #skills{
   display: block;
   text-align: center;
   width: 100%;
-  background-color: #4c5c96;
+  background-color: #4c5c96;opacity:0.6;
   color: white;
   font-family: 'Josefin Sans', sans-serif;
+ 
 
 }
 /*progressbars*/
@@ -208,18 +211,6 @@ a{
 }
 
 
-.chess{
-  height: 342px;
-  width: 350px;
-  margin-bottom: 1rem;
-}
-
-.website{
-  height: 342px;
-  width: 350px;
-  margin-top: 1rem;
-}
-
 .work{
   padding: 15px 15px 15px 15px;
   display: flex;
@@ -227,7 +218,7 @@ a{
   align-items: center;
   padding-bottom: 20rem;
   font-family: 'Josefin Sans', sans-serif;
-
+  margin: 10px 10px 10px 10px;
 
 }
 
@@ -236,6 +227,7 @@ a{
   background-repeat: no-repeat;
   background-size: 100% 100px;
   height: 100px;
+  opacity:0.6;
 
 }
 
@@ -249,7 +241,7 @@ a{
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  opacity:0.6;
 }
 
 .triangle5{
@@ -259,5 +251,6 @@ a{
   height: 100px;
   transform: scaleX(-1) rotate(180deg);
   -webkit-transform: scaleX(-1)rotate(180deg);
+  opacity:0.6;
 }
 
