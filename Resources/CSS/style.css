@@ -149,17 +149,17 @@ a {
 }
 
 #html:checked ~ .progress > .progress-bar {
-  width: 77%;
+  width: 85%;
   background-color: orangered;
 }
 
 #css:checked ~ .progress > .progress-bar {
-  width: 70%;
+  width: 80%;
   background-color: lightblue;
 }
 
 #sass:checked ~ .progress > .progress-bar {
-  width: 70%;
+  width: 75%;
   background-color: purple;
 }
 
@@ -169,7 +169,7 @@ a {
 }
 
 #javascript:checked ~ .progress > .progress-bar {
-  width: 60%;
+  width: 75%;
   background-color: yellow;
 }
 
